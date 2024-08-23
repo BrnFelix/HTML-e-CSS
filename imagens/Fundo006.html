@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+          
+        #container {
+        background-image: url("target001.png");  /* Define uma imagem de fundo para o contêiner */
+        background-size: 100% 100%;              /* Ajusta o tamanho da imagem de fundo para ocupar 100% da largura e altura do contêiner */
+        position: relative;                      /* Define a posição do contêiner como relativa para permitir a posição absoluta de elementos filhos */
+        height: 500px;                           /* Define a altura do contêiner em 500 pixels */
+        padding: 10px;                           /* Adiciona um preenchimento interno de 10 pixels ao redor do conteúdo do contêiner */
+        background-color: aquamarine;            /* Define uma cor de fundo aquamarine (verde água) para o contêiner */
+    }
+
+    #conteudo {
+        background-color: chocolate;             /* Define uma cor de fundo chocolate para o conteúdo */
+        position: absolute;                      /* Define a posição do conteúdo como absoluta, permitindo que ele seja posicionado dentro do contêiner */
+        height: 200px;                           /* Define a altura do conteúdo em 200 pixels */
+        width: 500px;                            /* Define a largura do conteúdo em 500 pixels */
+        margin: auto;                            /* Centraliza o conteúdo horizontalmente */
+        background-image: url("target001.png");  /* Define uma imagem de fundo para o conteúdo */
+        background-size: 100% 100%;              /* Ajusta o tamanho da imagem de fundo para ocupar 100% da largura e altura do conteúdo */
+
+        left: 50%;                               /* Posiciona o conteúdo 50% a partir da esquerda do contêiner */
+        top: 50%;                                /* Posiciona o conteúdo 50% a partir do topo do contêiner */
+        transform: translate(-50%,-50%);         /* Move o conteúdo para o centro do contêiner, ajustando sua posição em -50% da largura e altura */
+    }
+
+    </style>
+
+
+</head>
+<body>
+    <section id="container">
+        <article id="conteudo">
+
+        </article>
+    </section>
+</body>
+</html>
