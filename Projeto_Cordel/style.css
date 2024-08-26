@@ -120,6 +120,12 @@ footer {
     color: white;
 }
 
+@media (max-width: 767px) { 
+
+    
+    
+    } 
+
 .highlight-link {
     color: rgb(255, 255, 255); /* Cor do texto inicial */
     text-decoration: none; /* Remove a sublinha padrão */
