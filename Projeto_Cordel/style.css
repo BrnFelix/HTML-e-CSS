@@ -6,6 +6,7 @@ body {
     padding: 0;
     background-color: rgb(233, 229, 170);
     font-family: 'Amarante', cursive;
+    min-height: 100vh;
 }
 
 header {
@@ -14,29 +15,42 @@ header {
     left: 0;                   /* Fixa a div à esquerda da página */
     background-color: black;
     width: 100%;
-    height: 200px; 
+    height: 28vh; 
 
 }
 
 h1 {
     color: white;
     text-align: center;
-    font-size: 4em;
+    font-size: 11vh;
+    
+}
+
+.highlight-link {
+    color: rgb(255, 255, 255); /* Cor do texto inicial */
+    text-decoration: none; /* Remove a sublinha padrão */
+    transition: color 0.3s ease, text-decoration 0.3s ease; /* Transição suave */
+}
+
+.highlight-link:hover {
+    color: rgb(77, 53, 3); /* Muda a cor do texto ao passar o mouse */
+    text-decoration: underline; /* Adiciona sublinha ao passar o mouse */
+    cursor: pointer; /* Mostra o cursor de clique */
 }
 
 #Paragrafo-Autor {
     color: white;
     position: absolute;
-    top:110px;
-    right: 45%;
-    font-size: 1.2em;
+    top:170px;
+    right: 47%;
+    font-size: 3.5vh;
     text-align: center;
 }
 
 main {
     margin-top: 250px;
     text-indent: 40px;
-    font-size: 25px;
+    font-size: 5vh;
 }
 
 #Girassol {
@@ -64,7 +78,13 @@ main {
     display: inline-block;                      /* Faz com que a caixa de fundo ajuste ao tamanho do texto */
     position: relative;                         /* Permite o ajuste da posição relativa */
     top: -60px;                                 /* Ajusta a posição para cima */
-  
+    font-size: 5vh;
+}
+
+#Primeira {
+    position: relative;
+    top: 10vh;
+    padding-bottom: 15vh;
 }
 
 #Terceira {
@@ -98,7 +118,7 @@ main {
     display: inline-block;                      /* Faz com que a caixa de fundo ajuste ao tamanho do texto */
     position: relative;                         /* Permite o ajuste da posição relativa */
     top: -60px;                                 /* Ajusta a posição para cima */
-
+    font-size: 5vh;
 }
 
 #Quinta {
@@ -126,14 +146,3 @@ footer {
     
     } 
 
-.highlight-link {
-    color: rgb(255, 255, 255); /* Cor do texto inicial */
-    text-decoration: none; /* Remove a sublinha padrão */
-    transition: color 0.3s ease, text-decoration 0.3s ease; /* Transição suave */
-}
-
-.highlight-link:hover {
-    color: rgb(77, 53, 3); /* Muda a cor do texto ao passar o mouse */
-    text-decoration: underline; /* Adiciona sublinha ao passar o mouse */
-    cursor: pointer; /* Mostra o cursor de clique */
-}
